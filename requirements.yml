@@ -1,0 +1,10 @@
+---
+collections:
+  - community.general
+  - community.routeros
+  - ansible.netcommon
+  - community.network
+  - community.vmware
+  - ansible.windows
+  - awx.awx
+  - community.zabbix

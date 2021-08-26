@@ -1,0 +1,10 @@
+urllib3
+git+https://github.com/ansible/ansible-builder.git@devel#egg=ansible-builder
+netaddr
+pyvmomi
+git+https://github.com/vmware/vsphere-automation-sdk-python.git
+pywinrm
+pywinrm[kerberos]
+pywinrm[credssp]
+awxkit
+zabbix-api
