@@ -8,3 +8,4 @@ collections:
   - ansible.windows
   - awx.awx
   - community.zabbix
+  - community.windows
