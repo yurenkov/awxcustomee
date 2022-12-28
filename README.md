@@ -72,6 +72,8 @@ zabbix-api
 #### 5. Запускаем сборку образа ####
 ```
 ansible-builder build --tag=quay.io/##myrepo##/awxcustomee:latest --context=./context --container-runtime=docker
+or
+ansible-builder build -v3 -c . -t quay.io/##myrepo##/awxcustomee:latest --container-runtime=docker
 ```
 #### 6. Загружаем образ на DockerHUB или Quay.io ####
 ```
